@@ -294,7 +294,8 @@ async function createNew(title) {
         'Images': 0,
         'Title': title,
         'published': false,
-        'userName': localStorage.getItem('Username')
+        'userName': localStorage.getItem('Username'),
+        'content': []
     })
 }
 
